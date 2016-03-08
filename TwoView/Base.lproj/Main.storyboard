@@ -27,21 +27,21 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dL8-wr-p5X">
                                 <rect key="frame" x="30" y="66" width="540" height="524"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhJ-BS-NEa">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhJ-BS-NEa">
                                         <rect key="frame" x="224" y="0.0" width="92" height="175"/>
                                         <state key="normal" title="Go to second"/>
                                         <connections>
                                             <segue destination="3gI-9A-zPV" kind="presentation" identifier="FirstToSecond" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="Idy-Ac-8AN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nY3-jB-n1u">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nY3-jB-n1u">
                                         <rect key="frame" x="234" y="175" width="73" height="174"/>
                                         <state key="normal" title="Go to third"/>
                                         <connections>
                                             <segue destination="jUV-IY-P8m" kind="show" id="I7U-tJ-2LG"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHr-Sl-CpN">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHr-Sl-CpN">
                                         <rect key="frame" x="247" y="349" width="46" height="175"/>
                                         <state key="normal" title="Fourth"/>
                                         <connections>
@@ -185,8 +185,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHI-Vp-LID">
-                                <rect key="frame" x="259" y="94" width="83" height="170"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHI-Vp-LID">
+                                <rect key="frame" x="259" y="94" width="83" height="412"/>
                                 <state key="normal" title="Back to first"/>
                                 <connections>
                                     <segue destination="h7n-Mb-1sN" kind="unwind" unwindAction="returned:" id="uoa-yS-pYL"/>
@@ -220,6 +220,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CgP-DC-Btf"/>
+        <segue reference="my8-ua-Y8n"/>
     </inferredMetricsTieBreakers>
 </document>
